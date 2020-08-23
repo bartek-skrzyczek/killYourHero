@@ -1,0 +1,42 @@
+.square {
+    width: 202px;
+    height: 202px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.heroes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.row {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.heroes img {
+    width:200px;
+    min-width: 100%;
+    height: auto;
+}
+
+.active {
+    border: 2px blue solid;
+}
+
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    width: 818px;
+    height: 818px;
+}
+
+.target {
+    background-image: url("images/lion.svg");
+    background-size: cover;
+}
